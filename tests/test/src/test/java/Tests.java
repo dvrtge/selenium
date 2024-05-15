@@ -22,7 +22,7 @@ public class Tests {
         Page page = new Page(this.driver);
 
         Assert.assertTrue(page.getPageTitle().contains("PCX"));
-        Assert.assertTrue(page.getBody().contains("Akció"));
+        Assert.assertTrue(page.getBody().contains("Kapcsolat"));
 
         Assert.assertTrue(page.loginLogout());
     }
